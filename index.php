@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 $incomingYear = NULL;  // any year or NULL
 $incomingMonth = NULL;  // any month number 1-12 or NULL
-$incomingMonthQuantity = 12;  // amount of month to make schedule
+$incomingMonthQuantity = NULL;  // amount of month to make schedule
 
 printScdedule($incomingYear, $incomingMonth, $incomingMonthQuantity);
 
